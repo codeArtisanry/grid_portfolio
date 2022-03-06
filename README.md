@@ -5,6 +5,9 @@ Grid example plus doing frontend mentor project
 
 ![Design preview for the Testimonials grid section coding challenge](./design/desktop-preview.jpg)
 
+![desktop-preview](https://user-images.githubusercontent.com/87218847/156907637-c78e3fc6-cae8-4ce1-bba9-368244ce8bec.jpg)
+
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
