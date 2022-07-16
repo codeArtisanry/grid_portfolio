@@ -12,6 +12,12 @@
     "lint": "npm run lint:style && npm run lint:prettier",
     "lintfix": "prettier --write --list-different . && npm run lint:style -- --fix"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesnail21/grid_portfolio.git"
+  },
+  "author": "Vtsal chauhan",
+  "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.6.1",
     "bootstrap-vue": "^2.21.2",
@@ -20,7 +26,11 @@
     "vue": "^2.6.14",
     "vue-server-renderer": "^2.6.14",
     "vue-template-compiler": "^2.6.14",
-    "webpack": "^4.46.0"
+    "webpack": "^4.46.0",
+    "jsonfile": "^6.1.0",
+    "moment": "^2.29.3",
+    "random": "^3.0.6",
+    "simple-git": "^3.7.1"
   },
   "devDependencies": {
     "@nuxtjs/stylelint-module": "^4.1.0",
