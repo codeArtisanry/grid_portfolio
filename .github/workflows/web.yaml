@@ -1,0 +1,21 @@
+name: web
+on:
+  push:
+    paths:
+      - "web/**"
+      - ".github/workflows/web.yaml"
+      - "!**.md"
+jobs:
+  web:
+    timeout-minutes: 40
+    runs-on: [self-hosted]
+    defaults:
+      run:
+        shell: bash
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install Deps
+        run: |
+          docker build .
